@@ -1,0 +1,140 @@
+.app-container{
+  padding:40px;
+  background-color: darkmagenta;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  min-height: 100vh;
+}
+.heading{
+  color:white;
+  font-style:italic;
+  font-size:40px;
+}
+.TodoForm{
+  font-size: 18px;
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  color:white;
+}
+.todo-container{
+  min-width:400px;
+  max-width:600px;
+  padding:15px;
+  background-color: rgb(200, 131, 206);
+  text-align:center;
+  border-radius: 20px;
+  align-self: center;
+}
+.todo-input{
+  height:30px;
+  border-radius:15px;
+  border:0;
+  width: 250px;
+  background-color: darkmagenta;
+  color:white;
+  padding:5px;
+} 
+::placeholder{
+  color:white;
+  padding-left:10px;
+  font-size: 16px;
+}
+.todo-btn{
+  height:30px;
+  width:80px;
+  background-color: darkmagenta;
+  color:white;
+  align-self: center;
+  border-radius:15px;
+  border:0;
+  font-size: 16px;
+}
+.clear{
+  padding-top: 25px;
+  display: flex;
+  justify-content: start;
+  padding-left:20px;
+}
+.clear-btn{
+  height:30px;
+  width:140px;
+  background-color: darkmagenta;
+  color:white;
+  border-radius:15px;
+  border:0;
+  font-size: 16px;
+}
+.Todo{
+  display:flex;
+  justify-content:space-between;
+  color:white;
+  border-radius:15px;
+  background-color:darkmagenta;
+  margin:20px;
+}
+.todo-item{
+  margin-left: 15px;
+}
+.completed{
+  margin-left: 15px;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color:white;
+}
+.img-container{
+  display: flex;
+  justify-content: space-around;
+  height:50px;
+  width:70px;
+  margin-right:15px;
+}
+.img{
+  height:20px;
+  align-self: center;
+}
+
+@media(orientation:potrait),(max-width:576px){
+  .TodoForm{
+    font-size: 18px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    color:white;
+  }
+  .todo-container{
+    min-width:200px;
+    max-width:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color:white;
+    border-radius:15px;
+    background-color: rgb(200, 131, 206);
+    margin:20px;
+  }
+   .todo-input{
+    height:30px;
+    border-radius:15px;
+    border:0;
+    width: 90%;
+    background-color: darkmagenta;
+    color:white;
+    padding:5px;
+    margin-bottom:15px;
+  }
+  .Todo{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    border-radius:15px;
+    background-color:darkmagenta;
+    margin:20px;
+  }
+  .todo-item{
+    margin-left: 15px;
+  }
+}
