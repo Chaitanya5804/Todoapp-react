@@ -1,6 +1,6 @@
 ## Project : TODO APP USING REACT
 
-## Author : GURAJAPU CHAITANYA DEEPIKA.
+## Author : GURAJAPU CHAITANYA DEEPIKA. 
 
 This project is mainly to list out various tasks in our day-to-day life. 
 It makes our works easier, helps to maintain work-life balance and also reduces chaos in our lifes as it acts as a remainder for all the tasks. 
