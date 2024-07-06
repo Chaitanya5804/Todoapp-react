@@ -1,6 +1,6 @@
 ## Project : TODO APP USING REACT
 
-## Author : GURAJAPU CHAITANYA DEEPIKA. 
+## Author : GURAJAPU CHAITANYA DEEPIKA.
 
 This project is mainly to list out various tasks in our day-to-day life. 
 It makes our works easier, helps to maintain work-life balance and also reduces chaos in our lifes as it acts as a remainder for all the tasks. 
@@ -18,6 +18,7 @@ These are the following steps to how to run the app after extracting the files.
  => Replace the existing code in index.js , App.js , App.css with the files available.
  => Delete unncessary files (The files such as index.css, Appsetup.js etc.)
  => Refer to the image for better understanding of the flow of the files.
+
 
 # Getting Started with Create React App
 
@@ -71,6 +72,8 @@ There is a component folder that contains
  => Mark the tasks. We can save the state of the tasks by marking them complete.
  => Saving the tasks. The tasks are automatically saved even you refresh the page.
  => Clear the tasks. You can clear all the tasks at once using clear button.
+
+ ![Output](image-1.png)
 
 
 ## Other commands related to the project:
